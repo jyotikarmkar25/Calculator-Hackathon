@@ -18,7 +18,7 @@ body {
     background: #1e1e1e;
     padding: 15px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 20 px rgba(0,0,0,0.3);
 }
 
 #display {
@@ -28,9 +28,7 @@ body {
     text-align: right;
     padding: 10px;
     margin-bottom: 12px;
-    border: none;
     border-radius: 8px;
-    outline: none;
 }
 
 .buttons {
@@ -38,7 +36,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
 }
-
 
 button {
     padding: 15px;
@@ -60,14 +57,14 @@ button:active {
 }
 
 button:nth-child(1) {
-    background: #ff4d4d; 
+    background: #ff4d4d;
 }
 
 button:nth-child(15) {
-    background: #00c853; 
+    background: #00c853;
 }
 
-#jyoti{
-    position:  absolute;
-    top: 20px;
+#jyoti {
+    position: absolute;
+    top: 70px;
 }
